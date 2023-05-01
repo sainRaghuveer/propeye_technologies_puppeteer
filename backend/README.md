@@ -183,7 +183,9 @@ async function scrapeJobListings(searchQuery, url) {
 - You can see this example data
 
 ```js 
-       {
+{
+       "jobs":[
+        {
             "JobTitle": "Software Engineer II - Frontend",
             "companyName": "Uber3.5",
             "Location": "Bengaluru, Karnataka",
@@ -191,6 +193,8 @@ async function scrapeJobListings(searchQuery, url) {
             "jobPostingTime": "Posted 12 days ago",
             "url": "https://in.indeed.com/pagead/clk?mo=r&ad=-6NYlbfkN0BAHxQa-UPLtW7JK8D3QhfYrNbwRzYIBTTzoKwy8XmBQoJqPF-jJEvxEqIeGg0nSus--EZlpGbAFtFq2GGk26M74Dkwa7USlLxZ9989TX4Nc-1qzN2Q7NFzehJ-iXQjjwitUIfc4zhHNEEGJP9hHLaaGe0Alq7u03EqazWoBUC3g8NgNFZwgTY7JdJelP4ZRrFx-8Kmw9PDI1kk1EX_bxVvnaDhvKFeiimEIXkDKMNFzh4gOD20eWaLNPSZE8DN7AoF-hRDEv83HhJBL_lyCjagWd-QKnCyGW9MNruQQgF2YfThb2PfLm3UJCoFiHWnX6FlL-IZexAqpWRXCDUU5OL4kvMQj7gz4TP5QhlLV2c3R0l-IihZtibN5HactSIxlua8F276t52GPvysWBIQOq5pgdXuir_wo0yMqQ-fKENurBtUWuvao_b7YQ7kKQFiO9BxCp_RnRTG5x0tsE6aBMltF5Wucp9zCVuNjfal-4HoibH6ozJauYiYAlhrgsh0a7-YHghScRjLGxuNkrbQ_qHdZY1zWU2z5wc=&xkcb=SoCO-_M3QrQvp52ygZ0LbzkdCdPP&p=0&fvj=1&vjs=3"
         }
+        ]
+}        
 ```
 
 ## Screenshot
