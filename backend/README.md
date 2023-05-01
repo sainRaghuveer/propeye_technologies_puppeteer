@@ -4,6 +4,7 @@
 
 ## What we will use and what we can do ?
 - We will use puppeteer
+- Puppeteer is a Node.js library which provides a high-level API to control
 - Some extra module like puppeteer-extra
 - We can scrape job data from job listing websites
 - We can make JSON or CSV file and store data inside it
@@ -28,7 +29,7 @@ npm i puppeteer-extra-plugin-stealth
 - These dependencies we will be need during this project
 - We can ignore nodemon instead of we can just change start key in script tag
 
-```
+```js
 "dependencies": {
     "nodemon": "^2.0.22",
     "puppeteer": "^19.11.1",
@@ -43,7 +44,8 @@ npm i puppeteer-extra-plugin-stealth
 - We have to use async await and try catch block
 - To launch browser and web page we need this . 
 - Inside main function we have launch it .
-```
+
+```js
 async function main(){
     try{
         const browser = await puppeteer.launch();
@@ -57,7 +59,7 @@ async function main(){
 
 ## Run the scrapper
 - We can use terminal for run the scrapper with this command
-```
+```js 
 node index.js
 ```
 <br>
@@ -71,7 +73,7 @@ node index.js
   - backend developer
 - You can refer this code snippet
 
-```
+```js 
 let query = "software Developer"
 
 scrapeJobListings(query, "https://in.indeed.com/");
@@ -82,7 +84,7 @@ scrapeJobListings(query, "https://in.indeed.com/");
 
 ## When call this function it will run something like that
 
-```
+```js 
 async function scrapeJobListings(searchQuery, url) {
 	try {
 
@@ -180,7 +182,7 @@ async function scrapeJobListings(searchQuery, url) {
 - It wil contain Job tile, company name, location etc.
 - You can see this example data
 
-```
+```js 
        {
             "JobTitle": "Software Engineer II - Frontend",
             "companyName": "Uber3.5",
