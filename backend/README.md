@@ -38,6 +38,23 @@ npm i puppeteer-extra-plugin-stealth
 ```
 <br>
 
+## Installing browser and page
+- Every function will be async function and will take some time
+- We have to use async await and try catch block
+- To launch browser and web page we need this . 
+- Inside main function we have launch it .
+```
+async function main(){
+    try{
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
+    }catch(err){
+        console.log(err)
+    }
+}
+ 
+```
+
 ## Run the scrapper
 - We can use terminal for run the scrapper with this command
 ```
@@ -179,9 +196,15 @@ async function scrapeJobListings(searchQuery, url) {
 
 <img src="./image.png" alt="img"/>
 
+- When user will give query then how it will redirect and scrape the data in website
+
+<img src="./images/process.png" alt="img"/>
+
 <br>
 
-## references
+
+
+## References
 - <a href="https://pptr.dev/">Puppeteer Documentation</a>
 - <a href="https://www.npmjs.com/package/puppeteer-extra">Puppeteer-extra Documentation</a>
 - <a href="https://www.npmjs.com/package/puppeteer-extra-plugin-stealth">Puppeteer-extra-plugin-stealth Documentation</a>
