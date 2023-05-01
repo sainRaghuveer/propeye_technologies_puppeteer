@@ -211,11 +211,11 @@ async function scrapeJobListings(searchQuery, url) {
 - We can also create screenshot of particular webpage that we want scrape
 - here is one screenshot you can see
 
-<img src="./image.png" alt="img"/>
+<img src="./backend/image.png" alt="img"/>
 
 - When user will give query then how it will redirect and scrape the data in website
 
-<img src="./images/process.png" alt="img"/>
+<img src="./backend/images/process.png" alt="img"/>
 
 <br>
 
