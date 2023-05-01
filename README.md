@@ -10,7 +10,7 @@
 - We can make JSON or CSV file and store data inside it
 
 ## Getting Started
-
+- Go to backend folder and clone this repository
 ```
 npm i puppeteer
 # or using yarn
