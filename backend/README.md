@@ -78,6 +78,7 @@ scrapeJobListings(query, "https://in.indeed.com/");
 ```  
 - So you have to pass your query inside this function
 - Remaining work will do function
+- This is for particular indeed job listing website
 
 ## When call this function it will run something like that
 
