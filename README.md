@@ -11,6 +11,8 @@
 
 ## Getting Started
 - Go to backend folder and clone this repository
+- then run these commands for getting started
+- this will install all dependencies
 ```
 npm i puppeteer
 # or using yarn
